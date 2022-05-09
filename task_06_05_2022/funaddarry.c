@@ -1,6 +1,6 @@
 #include<stdio.h>
 #define SIZE 5  //initializing size as 5 globally
-void add_array(int array1[],int array2[],int array[])
+void add_array(int array1[],int array2[],int array[])//using functions for adding two arrays
 {
     int i;
     for (int i = 0; i < SIZE; i++)
