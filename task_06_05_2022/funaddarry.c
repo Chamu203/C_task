@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 5
+#define SIZE 5  //initializing size as 5 globally
 void add_array(int array1[],int array2[],int array[])
 {
     int i;
