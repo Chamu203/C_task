@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 int count_of_substring(char string[], char substring[])
 {
     int count = 0, found = 0;
@@ -24,21 +24,20 @@ int count_of_substring(char string[], char substring[])
     }
     return count;
 }
-void print_count(int found,int count)
+void print_count(int found, int count)
 {
-    if(found>=1)
+    if (found >= 1)
         printf("string count:%d", count);
     else
         printf("string count is zero");
-    
 }
 int main()
 {
     char string[] = "happy  is world is happy happy";
     char substring[] = "happy";
-    int count,found;
+    int count, found;
     count = count_of_substring(string, substring);
     printf("substring occurence count is:%d\n", count);
-    print_count(found ,count);
+    print_count(found, count);
     printf("\n");
 }
