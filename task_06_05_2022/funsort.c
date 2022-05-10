@@ -54,9 +54,9 @@ void print(int array1[], int array2[], int number1, int number2)
         }
     }
     printf("merged array is:\n");
-    for(i=0;i<sorted;i++)
+    for (i = 0; i < sorted; i++)
     {
-        printf("c[%d]=%d\n",i,merge[i]);
+        printf("c[%d]=%d\n", i, merge[i]);
     }
 }
 int main()
